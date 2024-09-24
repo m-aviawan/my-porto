@@ -17,8 +17,7 @@ const mySocialMedia = [
 
 const SocialMedia = () => {
   return (
-    <nav style={{gridColumn: '1/5'}} className='flex justify-center items-end h-[95%] p'>
-    <h6 className="footer-title">Social Media</h6>
+    <nav className='flex justify-center items-end h-[95%] mt-3'>
     <ul className="grid grid-flow-col gap-2">
         {
             mySocialMedia.map(({name, img}, index )=> {
@@ -27,7 +26,8 @@ const SocialMedia = () => {
                         <img 
                         src={img} 
                         alt={name.toLowerCase() + '_logo'}
-                        width={40}/>
+                        width={35}
+                        className='opacity-30 hover:opacity-100'/>
                     </li>
                 )
             })
