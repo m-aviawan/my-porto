@@ -10,7 +10,7 @@ const FormContact = () => {
     }
 
   return (
-    <div className='z-0 w-full absolute top-0 left-0 md:w-[50%] flex justify-center items-center h-screen  pb-[200px]'>
+    <div className='z-0 w-full absolute top-0 left-0 md:w-[50%] flex justify-center items-center h-screen pb-[200px] pt-[100px]'>
         {!hasSubmitted ? (<form onSubmit={HandleSubmit} className='z-[1] flex flex-col gap-1 w-[80%] mx-auto relative top-[50px] md:top-0'>
             <h1 className='sm:text-3xl text-xl font-bold mb-3'>What's your opinion</h1>
             <label className="input input-bordered flex items-center gap-2 drop-shadow-md ">

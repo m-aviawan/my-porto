@@ -9,7 +9,7 @@ const Contact = ({myNameSeparated}) => {
     <div>
       <Grid  iteration='90' opcty='0.1' zIdx='-20' gridTemCol='18'/>
       <div>
-        <div className='absolute top-0 right-0 -z-10 w-[50%] h-[100%] pb-[200px]'>
+        <div className='absolute top-0 right-0 -z-10 w-[50%] h-[100%] pb-[200px]  pt-[100px]'>
           <div className="glitch-wrapper mb-5 h-[100%] md:flex flex-col hidden">
             {
               myNameSeparated.map((item, index) => {

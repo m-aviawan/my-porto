@@ -27,7 +27,7 @@ const Home = () => {
           </text>
         </svg>
       </div>
-      <p className='text-xl mx-auto w-4/5 sm:w-2/5'>I'm <span className='font-bold'>Muhamad Fauzi Aviawan</span> as Junior Front-End Developer and Junior Back-End Developer </p>
+      <p className='text-xl mx-auto w-4/5 sm:w-2/5'>I'm <span className='font-bold'>Muhamad Fauzi Aviawan</span> as Junior Front-End Developer </p>
       {( nameText == 'Welcome' || nameText == '' )  && (<form onSubmit={HandleSubmit} className='hidden sm:flex sm:mx-auto'>
         <input onChange={HandleChange} name='visitor-name' type="text" placeholder="Please input your name..." className="drop-shadow-md input input-bordered w-full max-w-xs" />
         <button className="btn btn-neutral font-bold text-lg drop-shadow-md ml-1">Let's try</button>

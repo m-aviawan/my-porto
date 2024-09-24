@@ -16,7 +16,7 @@ const Footer = ({techStack, myWorkAvailStats}) => {
     <div>
       <Status myWorkAvailStats={myWorkAvailStats}/>
     </div>
-    <div className='flex gap-1 justify-end pt-0'>
+    <div className='flex gap-1 justify-end items-center pt-0'>
     {
     techStack.map((item, index) => {
       return (
